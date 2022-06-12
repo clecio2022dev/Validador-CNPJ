@@ -57,9 +57,6 @@ while True:
         
     validacao_DV = [calculadoDV_01, calculadoDV_02]
     
-    print(validacao_DV)
-    print(cnpjDV)
-    
     if cnpjDV == validacao_DV:
         print('CNPJ Validado com sucesso!')
         loop = False
